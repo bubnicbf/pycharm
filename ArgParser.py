@@ -79,3 +79,4 @@ if __name__ == '__main__':
     print results.boolean_switch
     print results.collection
     #print results.collection
+

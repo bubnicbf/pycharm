@@ -19,8 +19,8 @@ s.bind(('eth1', 0x0800))
 #s.ioctl(socket.SIO_RCVALL, socket.RCVALL_ON)
 
 while True:
-    # receive a package
-    print s.recvfrom(65565)
+	# receive a package
+	print s.recvfrom(65565)
 
 # disabled promiscuous mode
 #s.ioctl(socket.SIO_RCVALL, socket.RCVALL_OFF)

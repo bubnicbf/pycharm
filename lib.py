@@ -100,3 +100,4 @@ if __name__ == '__main__':
     drop_privileges()
 
     print is_sockfile(sys.argv[0])
+
